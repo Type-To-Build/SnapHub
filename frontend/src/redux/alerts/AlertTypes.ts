@@ -1,0 +1,5 @@
+export enum AlertType {
+    CLEAR_ALERT = 'CLEAR_ALERT',
+    ALERT_SUCCESS = 'ALERT_SUCCESS',
+    ALERT_ERROR = 'ALERT_ERROR'
+}

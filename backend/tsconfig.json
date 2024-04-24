@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "./build",
+      "baseUrl": ".",
+      "paths": {
+        "*": [
+            "node_modules/*",
+            "src/*"
+        ]
+    }
+    
+    },
+    "lib": ["es2015"],
+  
+  }
